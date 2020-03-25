@@ -33,6 +33,9 @@
  * KNEX:
  *  - npx knex init: Cria o arquivo de Configuracao
  *  - npx knex migrate:make create_(table) : Cria um arquivo de Migração.
- * 
+ *    -> Esse arquivo de configuração deve ser configurado
+ *  - npx knex migrate:latest : Cria o banco de dados, ou executa as migrações
+ *  - npx knex migrate:rollback : Executa o método down, da ultima migration feita
+ *  - npx knex migrate:status : Mostra todas as migrations executadas.
  * Migrations é histórico de tabelas do banco de dados.
  */
