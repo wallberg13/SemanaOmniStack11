@@ -1,0 +1,38 @@
+/**
+ * Métodos HTTP:
+ *
+ * GET: Buscar/listar uma informação no back-end.
+ * POST: Criar uma informação no back-end.
+ * PUT: Alterar uma informação no back-end.
+ * DELETE: Deletear uma informação no back-end.
+ */
+
+/**
+ * Tipos de Parâmetros:
+ *
+ * Query Params: Parâmetros nomeados enviado na rota após "?" (Filtros, paginação).
+ * Route Params: Parâmetros utilizados para identificar recursos.
+ * Request Body: Corpo da requisição, utilizado para criar ou alterar recursos.
+ */
+
+/**
+ * SQL: MySQL, SQLite, PostgreSQL, Oracle, Microsoft SQL Server.
+ * NoSQL: MongoDB, CouchDB, etc.
+ */
+
+/**
+ * Driver: SELECT * FROM users
+ * Query Builder: table('users').select('*').where()
+ *
+ * Query Build Utilizado: KNEX.JS
+ */
+
+/**
+ * NPX: executando código de outro pacote sem instalar.
+ * 
+ * KNEX:
+ *  - npx knex init: Cria o arquivo de Configuracao
+ *  - npx knex migrate:make create_(table) : Cria um arquivo de Migração.
+ * 
+ * Migrations é histórico de tabelas do banco de dados.
+ */

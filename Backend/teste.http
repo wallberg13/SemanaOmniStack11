@@ -1,0 +1,10 @@
+@url = http://localhost:3333
+
+### Get Root
+POST  {{url}}/users
+Content-Type: application/json
+
+{
+    "name": "Wall Berg",
+    "idade": 24
+}
