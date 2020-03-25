@@ -1,0 +1,16 @@
+@url = http://localhost:3333
+
+### Create a ONG
+POST  {{url}}/ongs
+Content-Type: application/json
+
+{
+    "name": "Be a Hero",
+    "email": "behero@hero.com.br",
+    "whatsapp": "+5589989898989",
+    "city": "Picos",
+    "uf": "PI"
+}
+
+### List ONG
+GET  {{url}}/ongs

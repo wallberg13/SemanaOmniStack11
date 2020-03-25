@@ -1,0 +1,5 @@
+@url = http://localhost:3333
+
+### Listando os Profiles
+GET {{url}}/profile
+authorization: b7573b7133

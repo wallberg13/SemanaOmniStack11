@@ -1,0 +1,9 @@
+@url = http://localhost:3333
+
+### Listando os Profiles
+POST {{url}}/sessions
+Content-Type: application/json
+
+{
+  "id": "b7573b71"
+}

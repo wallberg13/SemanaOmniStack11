@@ -1,0 +1,20 @@
+@url = http://localhost:3333
+
+### Criando um Caso
+POST {{url}}/incidents
+Content-Type: application/json
+authorization: d884970b
+
+{
+  "title": "Caso 3",
+  "description": "Ajude o Baianinho de Maua",
+  "value": 1000
+}
+
+### Listando os Casos
+GET {{url}}/incidents?page=1
+
+
+### Deletando um caso os Casos
+DELETE {{url}}/incidents/7
+authorization: b7573b7133
