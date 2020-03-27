@@ -1,0 +1,63 @@
+.notfound-container {
+  width: 100%;
+  max-width: 1120px;
+  height: 100vh;
+  margin: 0 auto; /* Fazendo as coisas ficarem centralizadas */
+
+  /* Display Flex, por Padrao, fica tudo um no lado do outro, a nao ser que seja mudado a
+    direção do mesmo.
+  */
+  display: flex;
+  flex-direction: column;
+  /* Alinhamento Verticamente ao centro*/
+  align-items: center;
+  /* Justify Content --> Alinhamento honrizontalmente ao centro*/
+  justify-content: center;
+}
+
+.notfound-container section {
+  width: 100%;
+  max-width: 450px;
+  padding: 20px;
+  background: #f0f0f5;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.img-limit {
+  width: 50%;
+  max-width: 20vw;
+}
+
+.notfound-text h1 {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  margin: 40px 0;
+}
+
+.notfound-text button {
+  margin-bottom: 40px;
+  color: white;
+}
+
+.notfound-text a {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 40px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.notfound-text button a:hover {
+  opacity: 0.8;
+}

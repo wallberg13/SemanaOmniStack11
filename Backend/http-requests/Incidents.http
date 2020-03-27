@@ -6,13 +6,13 @@ Content-Type: application/json
 authorization: d884970b
 
 {
-  "title": "Caso 3",
-  "description": "Ajude o Baianinho de Maua",
+  "title": "Caso Caralho",
+  "description": "Ajude o Baianinho de Maua a Ganhar do Cobrinha",
   "value": 1000
 }
 
 ### Listando os Casos
-GET {{url}}/incidents?page=1
+GET {{url}}/incidents
 
 
 ### Deletando um caso os Casos
