@@ -12,7 +12,7 @@ authorization: d884970b
 }
 
 ### Listando os Casos
-GET {{url}}/incidents
+GET {{url}}/incidents?page=2
 
 
 ### Deletando um caso os Casos
