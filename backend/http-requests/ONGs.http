@@ -6,10 +6,10 @@ Content-Type: application/json
 
 {
     "name": "Be a Hero",
-    "email": "behero@hero.com.br",
+    "email": "behero@hero",
     "whatsapp": "+5589989898989",
     "city": "Picos",
-    "uf": "PI"
+    "uf": "PIs"
 }
 
 ### List ONG

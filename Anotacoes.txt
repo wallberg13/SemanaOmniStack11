@@ -1,3 +1,44 @@
 # Ferramentas de Desenvolvimento:
 - figma.com
 	=> Construção de interface gráfica.
+- expo: Ferramenta que auxilia o desenvolvimento juntamente com o ReactNative.
+
+-> Topicos Avançados:
+	-> Adicionando Validação
+		-> Libs: express-validator, celebrate
+		-> Celebrate: bem melhor!!!
+		 
+	-> Adicionando Testes (OK)
+		-> Por que fazer testes? (Pq é uma Boa Prática)
+		-> TDD (Test-driven Development)
+		-> Configurando Jest
+		-> Tipo de testes
+			-> Unitario:
+				- Testa um pedaço da aplicação. Testa Funcionalidades Isoladas.
+				  O teste unitario, tira de si a integração com outros serviços
+				  que são externos à aplicação.
+			-> Integracao: 
+				- Testa um fluxo de uma rota inteira da aplicacao. Testa uma
+				  Funcionalidade
+		-> Configurando banco de testes
+		-> Instalando supertest
+		-> Testando rota de autenticação
+	-> Deploy
+		-> Alternativas
+		-> Qual escolher?
+	-> Estudos daqui pra frente
+		-> Padroes de Codigo: ESLint, Prettier
+		-> Autenticação JWT
+		-> Styled Components
+	-> Dicas para aproveitar melhor
+		-> Github
+		-> Linkedin
+
+-> Bibliotecas utilizadas:
+	- Jest => Para testes automatizados
+	- @types/jest => Para o VSCODE reconhecer as funções JEST
+	- cross-env => Para jogar variaveis de ambiente como parametro de execução.
+	- supertest => Consegue fazer requisições HTTP em ambiente de testes, e
+	  consegue trazer algumas validações a mais, como código de erros (pegar
+	  retornos)
+

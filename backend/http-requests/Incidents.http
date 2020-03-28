@@ -16,5 +16,5 @@ GET {{url}}/incidents?page=2
 
 
 ### Deletando um caso os Casos
-DELETE {{url}}/incidents/7
+DELETE {{url}}/incidents/ads
 authorization: b7573b7133

@@ -1,4 +1,4 @@
-const crypto = require("crypto");
+const generateUniqueId = require("../utils/generateUniqueId");
 const connection = require("../database/connection");
 
 module.exports = {
@@ -7,23 +7,23 @@ module.exports = {
 
     // Gerando uma string aleatória
     // Gerando 4 Bytes de caracteres hexadecimal. Já que o ID é criado no RANDOM.
-    const id = crypto.randomBytes(4).toString("HEX");
+    const id = generateUniqueId();
 
-    try {
-      await connection("ongs").insert({
-        id,
-        name,
-        email,
-        whatsapp,
-        city,
-        uf
-      });
-    } catch (e) {
-      return res.status(500).json({
-        mensagem: "Erro no Banco",
-        timestamp: Date.now()
-      });
-    }
+    // try {
+    await connection("ongs").insert({
+      id,
+      name,
+      email,
+      whatsapp,
+      city,
+      uf
+    });
+    // } catch (e) {
+    //   return res.status(500).json({
+    //     mensagem: "Erro no Banco",
+    //     timestamp: Date.now()
+    //   });
+    // }
     return res.json({ id });
   },
 
